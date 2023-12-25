@@ -10,13 +10,13 @@ int main()
 
     while(i<=a)
     {
-       if(a%i==0)//if a=6 then 2<=6 then 6%2=0 again 3<=6 then 6%3=0 
+       if(a%i==0)
        {
-        c++;//0+1=1(true)agian 1+1=2(true)
+        c++;
        }
-       i++;//2+1=3 agian 3+1=4
+       i++;
     }
-    if(c==1)// as c=2 so its is not a prime
+    if(c==1)
     {
         printf("It is a prime \n");
     }
